@@ -1,0 +1,77 @@
+@include global-reset;
+
+.bg-white {
+  background-color: $white;
+}
+.bg-primary {
+  background-color: $primary;
+}
+.bg-default {
+  background-color: $default;
+}
+.bg-clear {
+  background-color: $clear;
+}
+.bg-secondary {
+  background-color: $secondary;
+}
+.bg-negative {
+  background-color: $negative;
+}
+.bg-inverse {
+  background-color: $inverse;
+}
+.bg-black {
+  background-color: $black;
+}
+.bg-danger {
+  background-color: $danger;
+}
+
+
+.color-white {
+  color: $white;
+}
+.color-primary {
+  color: $primary;
+}
+.color-default {
+  color: $default;
+}
+.color-clear {
+  color: $clear;
+}
+.color-secondary {
+  color: $secondary;
+}
+.color-negative {
+  color: $negative;
+}
+.color-inverse {
+  color: $inverse;
+}
+.color-black {
+  color: $black;
+}
+.color-danger {
+  color: $danger;
+}
+
+
+body {
+  background: $white;
+  color: $black;
+}
+
+i {
+  @include border-radius(10%);
+  text-align: center;
+  text-weight: bold;
+  cursor: pointer;
+}
+
+i[class^="icon-"],i
+[class*=" icon-"] {
+  font-size: 16px;
+  padding: $separation;
+}
