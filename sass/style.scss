@@ -7,4 +7,15 @@
 
 @import "compass/css3";
 @import "sectors/base";
+@import "sectors/header";
 @import "sectors/nav";
+@import "sectors/footer";
+
+.content {
+	width: 55%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #73c9c4;
+} 

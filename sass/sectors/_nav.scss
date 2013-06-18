@@ -1,12 +1,31 @@
-nav {
-  position: fixed;
-  width: $nav-width;
-  height: 100%;
-  top: $separation;
-
-  article {
-    h1 {
-      font-family: 'Conv_anntena_bold';
-    }
-  }
+.entries {		
+	section {
+		padding: 15px 0 0 15px;
+		@include calc(height, "100% - 110px");		
+		overflow-y: scroll;
+		article {
+			padding: 25px 10px;
+			border-bottom: 1px solid #eee;
+			border-left: 4px solid #f11d68;			
+			margin-bottom: 2px;
+			img {
+				float: left;
+				margin: auto 10px auto 5px;
+			}
+			header {
+				h1 {
+					font-family: 'anntena bold';
+				}								
+			}
+			time {
+				color: #ccc;	
+				margin: 8px 0;			
+				display: block;
+			}
+			p {
+				margin: 8px 0;
+				line-height: 1.3em;
+			}
+		}
+	}
 }

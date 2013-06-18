@@ -1,0 +1,66 @@
+.entries {
+	width: 45%;
+	float: left;
+	border-right: 1px solid #ccc;
+	height: 100%;
+	position: fixed;		
+	& > header {
+		background: #f8f8f8;
+		padding: 10px;		
+		height: 70px;	
+		width: 100%;
+		border-bottom: 3px solid #ccc;
+		.logo {
+			display: inline-block;
+			margin-top: 7px;
+		}
+		nav {
+			float: right;	
+			margin-top: 5px;
+			.input {									
+				& > span {
+					padding: 10px;
+					background: #eee;
+					color: #333;
+					float: left;
+				}
+				a {
+					position: relative;				
+					padding: 10px;
+					border-left: 4px solid #73c9c4;
+					display: inline-block;
+					background: #fff;
+					width: 180px;
+					text-decoration: none;				
+					color: #333;
+
+					.arrow {
+						border-right: 6px solid transparent;
+						border-left: 6px solid transparent;
+						border-top: 6px solid #333;
+						position: absolute;
+						right: 10px;
+						top: 15px;					
+						transition: border 0.3s ease-in-out;
+					}
+
+					&:hover > .arrow{
+						border-top-color: $mblue;
+					}
+
+					&:active {
+						padding: 11px 10px 9px 10px;
+					}						
+				}			
+			}	
+			ul {
+				display: none;
+				li {
+					a {
+
+					}
+				}
+			}
+		}	
+	}
+}
