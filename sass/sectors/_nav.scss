@@ -1,0 +1,12 @@
+nav {
+  position: fixed;
+  width: $nav-width;
+  height: 100%;
+  top: $separation;
+
+  article {
+    h1 {
+      font-family: 'Conv_anntena_bold';
+    }
+  }
+}
