@@ -8,6 +8,11 @@ footer {
 	left: 0;
 	padding: 5px;	
 	border-top: 2px solid #eee;
+	.short-logo {
+		float: left;
+		margin-right: 15px;
+		height: 27px;
+	}
 	ul {		
 		margin-top: 8px;
 		li {
@@ -18,13 +23,13 @@ footer {
 			}
 			a {
 				text-decoration: none;
-				color: $gray-hard;
+				color: $mgrayhard;
 				font-size: 0.8em;
 				padding: 0 7px;												
 				transition: color 0.3s ease-in-out;
 				&:hover {
 					color: $blue;
-				}
+				}	
 			}
 		}
 	}

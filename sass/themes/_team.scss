@@ -1,0 +1,129 @@
+.team-content {
+	.center {
+		width: 820px;
+		margin: 40px auto 80px auto;
+		& > header {
+			text-align: center;
+			h1 {				
+				font-family: 'anntena bold';
+				font-size: 2em;
+			}
+			p {
+				font-size: 1.2em;
+				padding: 10px 0;
+				margin: 45px 0 55px 0;
+				border-top: 2px solid #e1e1e1;
+				border-bottom: 2px solid #e1e1e1;
+				line-height: 1.5em;
+			}
+		}
+		.people {
+			overflow: hidden;
+			ul {				
+				li {					
+					position: relative;
+					float: left;
+					margin-right: 90px;
+					text-align: center;			
+					display: block;		
+					width: 212px;					
+					&:nth-child(3) {
+						margin: 0;
+					}
+					.image {
+						border-radius: 50%;
+						&:hover > img {
+							-webkit-filter: blur(2px);
+							opacity: 0.7;
+							border: 4px solid #eee;
+						}
+						&:hover > .social {
+							opacity: 1;
+						}
+						img {
+							width: 212px;							
+							border-radius: 50%;
+							border: 5px solid #eee;
+							transition: all 0.3s ease-in-out;							
+						}
+						.social {
+							position: absolute;							
+							top: 96px;
+							left: 50%;
+							margin-left: -54px;
+							opacity: 0;
+							-webkit-transition: opacity 0.3s ease-in-out;
+							-moz-transition: opacity 0.3s ease-in-out;							
+							transition: opacity 0.3s ease-in-out;
+							a {								
+								display: inline-block;								
+								width: 32px;
+								height: 32px;
+								background: #333;
+								color: #fff;
+								text-decoration: none;
+								font-size: 0.8em;
+								padding-top: 9px;
+								border-radius:50%;
+								margin-right: 5px;											
+								-webkit-transition: background 0.3s ease-in-out;
+								-moz-transition: background 0.3s ease-in-out;							
+								transition: background 0.3s ease-in-out;
+								&.facebook {
+									background: #3b86c0;
+									&:hover {
+										background: #1a5d91;	
+									}
+								}
+								&.twitter {
+									background: #62ccf3;
+									&:hover {
+										background: #36b6e5;
+									}
+								}
+								&.youtube {
+									background: #c4343e;
+									&:hover {
+										background: #a2121c;
+									}
+								}
+							}
+						}
+					}					
+					section {						
+						& > header {
+							h1 {
+								color: #333;
+								margin: 20px 0;
+								font-size: 1.3em;
+							}						
+						}
+						p {
+							font-size: 0.9em;
+							line-height: 1.5em;
+							margin: 20px 0;
+							&.expertice {
+								color: $msoftblue; 	
+								font-size: 1em;													
+							}
+						}
+					} 					
+				}
+			}
+		}
+
+		.colaborate {
+			margin: 40px 0;
+			text-align: center;
+			font-size: 2em;
+			line-height: 1.4em;
+			a {
+				color: $msoftblue;
+				text-decoration: none;				
+				&:hover {
+
+				}
+			}
+		}
+	}
+}
