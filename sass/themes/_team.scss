@@ -89,27 +89,23 @@
 								-moz-transition: background 0.2s ease-in-out;							
 								transition: background 0.2s ease-in-out;
 								&.facebook {
-									background: #3b86c0;
+									background: #3b86c0;									
 									&:hover {
-										background: #1a5d91;	
+										background: #1a5d91;											
 									}
 								}
 								&.twitter {
-									background: #62ccf3;
+									background: #62ccf3;									
 									&:hover {
-										background: #36b6e5;
+										background: #36b6e5;										
 									}
 								}
 								&.youtube {
-									background: #c4343e;
+									background: #c4343e;									
 									&:hover {
-										background: #a2121c;
+										background: #a2121c;										
 									}
-								}
-								&:hover {
-									/*background: #fff !important;
-									color: #333;*/
-								}
+								}								
 							}
 						}
 					}					
